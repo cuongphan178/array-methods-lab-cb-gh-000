@@ -7,7 +7,9 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-  array.reverse
+  array.each do |element|
+    element.reverse
+  end
 end
 
 def using_first(array)
